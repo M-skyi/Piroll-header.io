@@ -127,6 +127,9 @@ button{
 button:hover{
    background-color: #1ae6e0;
 }
+.send input:hover{
+    background-color: #1ae6e0;
+ }
 .about{
     height: 420px;
     background-color: #ffffff;
@@ -455,42 +458,6 @@ h5{
 .part-3{
     margin-left: 120px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:576px){
     .container{
         max-width: 100%;
