@@ -50,6 +50,14 @@ body{
     flex:0 0 25%;
     max-width: 25%;  
 }
+.col-5{
+    flex:0 0 41.66%;
+    max-width: 41.66%;
+}
+.col-4{
+    flex:0 0 33.33%;
+    max-width: 33.33%;
+}
 .row {
     display: flex;
 }    
@@ -166,7 +174,8 @@ h2{
 .marketing {
     width: 65%; 
     background-color:  #10c9c3;
-} .name-skills{
+} 
+.name-skills{
     margin-bottom: 20px;
     font-weight: 600;
 }
@@ -400,9 +409,52 @@ position: relative;
     font-family: 'Roboto', sans-serif; 
     letter-spacing: 0.5px;
 }
+footer{
+    height: 280px;
+    background-color: #141414;
 
+}
+h5{
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.site-name p{
+    color: #ffffff;
+    line-height: 1.5;
+}
+.contact{
+    color: #ffffff;
+    margin-top: 100px;
+    line-height: 1.5;
+}
+.menu-header a{
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: none;
+    font-size: 15px;
+    width: max-content;
 
-
+}
+.menu-header{
+    margin-top: 100px;
+    display: flex;
+  flex-direction: column;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.part-2{
+    margin-left: 50px;
+}
+.part-1{
+    margin-left: 100px;
+}
+.part-3{
+    margin-left: 120px;
+}
 
 
 
@@ -547,7 +599,23 @@ position: relative;
     li{
         width: 100%;
     }
-    
+    .send input {
+        margin-top: -12px;
+    } 
+     footer{
+         height: 750px;
+    }
+     .part-3,.part-1{
+         margin-left: 0px;
+    }
+    .text-services{
+        margin-bottom: 40px;
+    }
+    .testimonials{
+        height: 423px;
+    }
+
+     
 }
 
 @media ( min-width: 576px ){
@@ -568,6 +636,12 @@ position: relative;
     }
     .player-work img {
         max-width: 100%;
+    }
+    .part-1,.part-3{
+        margin-left: 17px;
+    }
+    .contact{
+        margin-left: 15px;
     }
 } 
 @media ( min-width: 768px ){
