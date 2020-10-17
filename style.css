@@ -38,6 +38,10 @@ body{
     flex:0 0 100%;
     max-width: 100%; 
 }
+.col-12{
+    flex:0 0 100%;
+    max-width: 100%; 
+}
 .col-sm-3{
     flex:0 0 100%;
     max-width: 100%; 
@@ -76,6 +80,10 @@ body{
     margin-top: 44px;
     flex-direction: row;
     margin-left: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
@@ -581,6 +589,9 @@ h5{
     .testimonials{
         height: 423px;
     }
+    .box{
+        display: block;
+    }
 
      
 }
@@ -629,8 +640,9 @@ h5{
     .title-skills{
         margin-top: 130px;
     }
-    
-    
+    .work-process{
+        height: 690px;
+    }  
 }
 @media ( min-width: 992px ){
     .container{
@@ -647,6 +659,9 @@ h5{
     .row{
         flex-direction: row;
     }
+    .work-process{
+        height: 815px;
+    } 
 }
 @media ( min-width: 1200px ){
     .container{
@@ -672,4 +687,7 @@ h5{
     .contact{
         margin-left: 95px;
     }
+    .work-process{
+        height: 920px;
+    } 
 }
