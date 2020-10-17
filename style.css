@@ -663,4 +663,13 @@ h5{
     .row{
         flex-direction: row;
     }
+    .part-3{
+        margin-left: 100px;
+    }
+    .part-1 , .part-2{
+        margin-left: 80px;
+    }
+    .contact{
+        margin-left: 95px;
+    }
 }
