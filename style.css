@@ -71,6 +71,7 @@ body{
 }
 .logo{
     margin-top: 40px;
+    margin-left: 10px;
 }
 .nav{
     display: flex;
@@ -487,6 +488,9 @@ h5{
         flex-direction: column;
         align-items: center;
     } 
+    .mobile-menu{
+        flex-direction: row;
+    }
     .nav{
         overflow: scroll;
         position: relative;
@@ -591,6 +595,10 @@ h5{
     }
     .box{
         display: block;
+    }
+    .col-sm-10{
+        flex:0 0 83.33%;
+        max-width: 83.33%; 
     }
 
      
@@ -786,11 +794,29 @@ h5{
         opacity: 1;
         visibility: visible;
         transform: translateX(0);
-        top: 50px;
-        background-color: red;
+        top: 80px;
+        background-color: rgba(195, 211, 216, 0.993);
     }
     .active-menu .nav{
         flex-direction: column;
     }
+    .nav li{
+        margin-top: 33px;
+        margin-left: 0px;
+    }
+    .nav a{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .nav{
+        margin-left: 30px;
+    }
+}
+
+.block-mobile-menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 33px;
+    margin-right: 17px;
 }
  
