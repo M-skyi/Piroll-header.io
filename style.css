@@ -493,7 +493,6 @@ h5{
         width: 0px;
     }
     .nav{
-        overflow: scroll;
         position: relative;
         width: 100%;
         margin-left:-14px ;
@@ -826,7 +825,7 @@ h5{
         font-weight: normal;
     }
     .nav{
-        margin-left: 30px;
+        margin-left: 90px;
         flex-direction: column;
     }
     .mobile-menu{
